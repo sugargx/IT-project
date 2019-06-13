@@ -83,6 +83,9 @@ public class Counter extends JFrame implements ActionListener {
 
 	public void handleOperator(String key) {
 		//代填
+		else if (operator.equals("/"))
+			result /= Double.valueOf(text.getText());
+		// 如果operator等于=“/”，result=result/得到的已转换为双精度浮点型的文本值
 
 	}
 
